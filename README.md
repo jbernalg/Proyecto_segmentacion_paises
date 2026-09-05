@@ -37,12 +37,21 @@ El modelo con mejor separación entre grupos fue **K-Means sobre los datos con P
 
 ### Gráficas más relevantes
 
-| | |
-|---|---|
-| ![Matriz de correlación](outputs/02_heatmap_correlacion.png) | **Correlación entre variables.** El ingreso y el PIB per cápita están fuertemente correlacionados de forma positiva, mientras que la mortalidad infantil se correlaciona negativamente con la esperanza de vida y la fertilidad — confirma que los indicadores capturan un mismo eje de desarrollo económico y social. |
-| ![Selección de K](outputs/04_kmeans_pca_seleccion_k.png) | **Selección del número óptimo de clusters.** El método del codo y el coeficiente de silueta coinciden en que **K = 4** ofrece la mejor segmentación para K-Means sobre los datos con PCA. |
-| ![Mortalidad infantil vs PIB per cápita](outputs/15_scatter_mortalidad_gdpp.png) | **Separación de los clusters.** Al graficar mortalidad infantil vs. PIB per cápita se observa una clara separación entre los 4 grupos, validando visualmente la calidad de la segmentación. |
-| ![Mapa de clusters](outputs/16_mapa_clusters.png) | **Mapa mundial de clusters.** Visualización geográfica final: cada país coloreado según el cluster de desarrollo socioeconómico al que pertenece. |
+![Matriz de correlación](outputs/02_heatmap_correlacion.png)
+
+**Correlación entre variables.** El ingreso y el PIB per cápita están fuertemente correlacionados de forma positiva, mientras que la mortalidad infantil se correlaciona negativamente con la esperanza de vida y la fertilidad — confirma que los indicadores capturan un mismo eje de desarrollo económico y social.
+
+![Selección de K](outputs/04_kmeans_pca_seleccion_k.png)
+
+**Selección del número óptimo de clusters.** El método del codo y el coeficiente de silueta coinciden en que **K = 4** ofrece la mejor segmentación para K-Means sobre los datos con PCA.
+
+![Mortalidad infantil vs PIB per cápita](outputs/15_scatter_mortalidad_gdpp.png)
+
+**Separación de los clusters.** Al graficar mortalidad infantil vs. PIB per cápita se observa una clara separación entre los 4 grupos, validando visualmente la calidad de la segmentación.
+
+![Mapa de clusters](outputs/16_mapa_clusters.png)
+
+**Mapa mundial de clusters.** Visualización geográfica final: cada país coloreado según el cluster de desarrollo socioeconómico al que pertenece.
 
 ## Conclusiones
 
